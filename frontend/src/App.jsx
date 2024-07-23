@@ -9,7 +9,7 @@ export default function App() {
   const [totalPages, setTotalPages] = useState(1);
 
   useEffect(() => {
-    fetch(`http://localhost:4000/api/inventory?page=${currentPage}`)
+    fetch(`http://54.235.196.58:4000/api/inventory?page=${currentPage}`)
       .then(response => response.json())
       .then(data => {
         setInventory(data.inventory);
