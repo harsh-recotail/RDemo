@@ -97,7 +97,7 @@ const order = async () => {
 };
 
 // Run the order function to download the report
-//order();
+order();
 
 // Start the Express server
 const PORT = 4000;
